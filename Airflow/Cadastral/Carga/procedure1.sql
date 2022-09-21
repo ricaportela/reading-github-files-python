@@ -1,14 +1,9 @@
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
-# Create Proceure Postgres 1# Create Proceure Postgres 1
-# Create Proceure Postgres 1
+CREATE OR REPLACE PROCEDURE display_message (INOUT msg TEXT)
+
+ AS $$
+
+ BEGIN
+
+ RAISE NOTICE 'Procedure Parameter: %', msg ;
+
+ END ;
